@@ -32,11 +32,13 @@ Para a sincronização funcionar, o projeto do Google Apps Script dessa URL prec
 10. Se o Google pedir autorização, autorize o acesso à planilha.
 11. Abra a URL `/exec` do Apps Script. Ela deve mostrar o SlotGain Control, não apenas um JSON.
 
+Esta cópia usa uma chave própria no navegador: `slotgain-caixeta-state-v1`. Isso evita misturar dados com outros apps publicados no mesmo domínio `rafaelfreze.github.io`.
+
 Depois disso, o app salva automaticamente nas abas:
 
-- `SlotGain_Estado`: backup completo do app.
-- `SlotGain_Slots`: espelho dos slots em formato de planilha.
-- `SlotGain_Historico`: histórico das ações.
+- `SlotGain_Caixeta_Estado`: backup completo do app.
+- `SlotGain_Caixeta_Slots`: espelho dos slots em formato de planilha.
+- `SlotGain_Caixeta_Historico`: histórico das ações.
 
 O app também continua salvando uma cópia no navegador. Se a internet falhar, ele preserva os dados locais e tenta sincronizar novamente quando você usar o botão **Sincronizar agora**.
 

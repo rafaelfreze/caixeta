@@ -1,6 +1,6 @@
 "use strict";
 
-const STORAGE_KEY = "slotgain-control-state-v1";
+const STORAGE_KEY = "slotgain-caixeta-state-v1";
 const MAX_HISTORY = 220;
 const CLOUD_ENDPOINT =
   "https://script.google.com/macros/s/AKfycby8aMNlkQJ82UsjjwYRzSCXvx4DvdOZ2S-qj6NHVU0OEXrCU-JpPkhVXKQtwp-Ai-0S/exec";
