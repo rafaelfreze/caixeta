@@ -6,7 +6,11 @@ Web app para controle pessoal de operações cripto por slots. Ele salva uma có
 
 O app já está configurado para usar esta URL do Google Apps Script como versão online principal:
 
-`https://script.google.com/macros/s/AKfycbyW4OSUps3QD51_HZVsZiV8vSlyH0pCl4WiPtD7ihN3jYOH2TYo3nrfEl02HFnSvU8uAA/exec`
+`https://script.google.com/macros/s/AKfycby8aMNlkQJ82UsjjwYRzSCXvx4DvdOZ2S-qj6NHVU0OEXrCU-JpPkhVXKQtwp-Ai-0S/exec`
+
+Os arquivos visuais desta cópia devem ficar publicados no GitHub Pages em:
+
+`https://rafaelfreze.github.io/caixeta/`
 
 Abra o SlotGain por esse link do Apps Script para sincronizar direto com a planilha. A versão do GitHub Pages pode continuar online como cópia visual/local, mas navegadores costumam bloquear a sincronização direta entre GitHub Pages e Apps Script por política de segurança.
 

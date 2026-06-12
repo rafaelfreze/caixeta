@@ -3,7 +3,7 @@
 const STORAGE_KEY = "slotgain-control-state-v1";
 const MAX_HISTORY = 220;
 const CLOUD_ENDPOINT =
-  "https://script.google.com/macros/s/AKfycbyW4OSUps3QD51_HZVsZiV8vSlyH0pCl4WiPtD7ihN3jYOH2TYo3nrfEl02HFnSvU8uAA/exec";
+  "https://script.google.com/macros/s/AKfycby8aMNlkQJ82UsjjwYRzSCXvx4DvdOZ2S-qj6NHVU0OEXrCU-JpPkhVXKQtwp-Ai-0S/exec";
 const CLOUD_SAVE_DEBOUNCE_MS = 900;
 
 const STRATEGIES = {

@@ -3,8 +3,8 @@ const STATE_SHEET = "SlotGain_Estado";
 const SLOTS_SHEET = "SlotGain_Slots";
 const HISTORY_SHEET = "SlotGain_Historico";
 const STATE_CHUNK_SIZE = 40000;
-const APP_ASSET_BASE = "https://rafaelfreze.github.io/cripto";
-const APP_ASSET_VERSION = "slotgain-google-sheets-v9";
+const APP_ASSET_BASE = "https://rafaelfreze.github.io/caixeta";
+const APP_ASSET_VERSION = "slotgain-caixeta-v1";
 
 function doGet(e) {
   const action = String((e && e.parameter && e.parameter.action) || "").toLowerCase();
