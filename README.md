@@ -69,6 +69,12 @@ No celular, a lista fica separada por estratégia e cada slot mostra os gains co
 
 Cada slot mostra estratégia, quantidade de gains, valor e status na mesma faixa de destaque, além dos botões pequenos de ação. O número do slot continua existindo, mas fica discreto.
 
+Na área de slots existem filtros rápidos:
+
+- Todos: mostra todos os slots da moeda/busca atual.
+- Abertos: mostra apenas slots com status Aberto.
+- Fechados: mostra apenas slots fechados/zerados, ou seja, elegíveis para saldo e redistribuição.
+
 ## Dashboard
 
 O topo mostra o resumo geral:
@@ -82,7 +88,7 @@ A ordem visual da tela é: resumo geral, resumo por cripto, lista de slots com s
 
 No final da página também ficam as ferramentas de manutenção:
 
-- Adicionar saldo: soma um valor em USDT ao valor base de cada slot da estratégia escolhida.
+- Adicionar saldo: soma um valor em USDT ao valor base apenas dos slots fechados/zerados da estratégia escolhida. Slots abertos e hold não são alterados.
 - Redistribuir gains: soma os gains dos slots fechados da estratégia e redistribui de forma equilibrada apenas entre esses slots, sem mudar a ordem manual. Slots abertos ou hold são ignorados.
 
 ## Filtros
